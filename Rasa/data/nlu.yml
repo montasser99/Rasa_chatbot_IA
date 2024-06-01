@@ -1,0 +1,536 @@
+version: "3.1"
+################################################## This data in english #######################################
+nlu:
+
+- intent: ask_activity
+  examples: |
+    - what are you doing?
+    - what's up?
+    - what are you up to?
+    - what's going on?
+    
+
+################################################## This data in frensh #######################################
+
+- intent: st_bonj
+  examples: |
+    - bonjour
+    - bonjour chatbot 
+    - bonjour espritNetworkBot
+    - salut 
+    - hey 
+    - heyyy hey
+    - hello 
+    - hi 
+    - hello there
+    - good morning
+    - good evening
+    - oyyy 
+    - chatbot !! 
+    - hey you 
+    - bonjour le bien jours
+    - salut chatbot
+    - salut espritNetworkBot
+    - salut chatbot
+    - salut salut 
+    - hmmmm heyyy 
+    - hmmmm hello there
+    - hmmmm good morning
+    - helloo helooo 
+    - bnj 
+    - slt 
+    - slm 
+    - ahla 
+    - asslema 
+    - salem 
+    - ahla bik 
+    - welcome 
+    - chatbot are you here ? 
+    - hey hey tu la ? 
+    - Salutations
+    - Coucou 
+    - Bonjour tout le monde
+    - Bon matin
+    - Bon soir
+    - Bon dimanche
+    - Bon vendredi
+    - Bon lundi
+    - Bon mardi
+    - Bon mercredi
+    - Bon jeudi
+    
+
+- intent: st_Sava
+  examples: |
+    - bonjour cv ? 
+    - cv ?  
+    - how are you ? 
+    - how are you doing?
+    - how are you doing today?
+    - cava bien ? 
+    - ça va chatbot ?
+    - ça roule ?
+    - comment vas-tu ?
+    - tu vas bien ?
+    - tu vas bien chatbot ?
+    - ça va aujourd'hui ?
+    - comment ça va ?
+    - comment ça se passe ?
+    - tout va bien ?
+    - comment tu te sens ?
+    - tu es en forme ?
+    - tout va bien de ton côté ?
+    - es-tu en bonne santé ?
+    - tu te sens bien ?
+    - tout se passe bien pour toi ?
+    - Salut chatbot, comment ça va ?
+
+
+- intent: st_Doing
+  examples: |
+    - quesque tu fait alors ?
+    - qu'est-ce que tu fait?
+    - qu'est-ce que tu va faire?
+    - tu fait quoi ? 
+    - maintenant quesque tu fait ? 
+    - what are you doing ? 
+    - what do you do 
+    - what do you think ? 
+    - Qu'est-ce que tu fais actuellement ?
+    - Tu es occupé en ce moment ?
+    - Que fais-tu en ce moment ?
+    - À quoi es-tu occupé ?
+    - Tu travailles sur quoi ?
+    - Que fais-tu de ton côté ?
+    - Tu as quelque chose de prévu ?
+    - Quels sont tes projets actuels ?
+    - Tu travailles sur quoi en ce moment ?
+    - Tu es en train de faire quoi ?
+    - Tu es occupé maintenant ?
+
+- intent: phrase_presentation
+  examples: |
+    - Présentation du chatbot
+    - Tu peux te présenter ?
+    - Présentes-toi
+    - comment vous appelez vous?
+    - qui etes vous ?
+    - Bjr
+    - Qui es tu?
+    - qui est tu?
+    - comment tappelles tu?
+    - QUEL EST LE TEXTE SUR LES DEROGATIONS AUX NORMES MEDICALES DAPTITUDE
+    - reconversion interne
+    - Comment tu t appelles?
+    - Tu tappelles comment
+    - Comment te prénomme tu ?
+    - qui est tu ?
+    - quest-ce quun chatbot
+    - Tki
+    - comment allez vous ?
+    - Que peux tu faire ?
+    - Qui es tu
+    - Présentation du chatbot
+    - Pourquoi tu tappelles esprit network
+    - A quoi sert le chatbot ?
+    - Comment tappelle tu
+    - à quoi sert tu exactement
+    - Tu es qui?
+    - à quoi sert tu exactement?
+    - A quoi sert ?
+    - Qui es tu ?
+    - Quel est ton rôle ?
+    - À quoi sers-tu ?
+    - Comment peux-tu m'aider ?
+    - Quels services proposes-tu ?
+    - Quelles sont tes fonctionnalités ?
+    - Pourquoi es-tu là ?
+    - Comment fonctionnes-tu ?
+    - Qu'est-ce que tu fais ?
+    - Peux-tu m'expliquer ton utilité ?
+    - En quoi consiste ton assistance ?
+
+- intent: st_age
+  examples: |
+    - Quel est ton âge ?
+    - quel âge as-tu
+    - ton âge
+    - quel est ton âge
+    - est-ce que tu as 20 ans
+    - cest quoi ton âge
+    - quand as-tu été créée
+    - tu as quel âge
+    - quand as-tu été créé
+    - as-tu 19 ans
+    - tas quel âge
+    - quelle est votre age ?
+    - exactement tu quel age ? 
+    - merci de me dire votre age ? 
+    - si tu veux dit moi votre age ? 
+
+
+- intent: st_beautiful_good
+  examples: |
+    - Es-tu beau ?
+    - beau
+    - cest beau
+    - belle
+    - cest très beau
+    - cest trop beau
+    - cest super beau
+    - tellement beau
+    - tellement belle
+    - mignon
+    - joli
+    - mignonne
+    - cest joli
+    - super beau
+    - jolie
+    - super jolie
+    - trop jolie
+    - très joli
+    - chix
+    - cute
+    - tu es trop cute
+    - tu es attirant
+    - tu es très attirante
+    - t es sexy
+    - tu es mignonne
+    - tu es mignon
+    - tu es beau
+    - tu es belle
+    - tu es jolie
+    - Tu es cool.
+    - cool
+    - tu es vraiment bien
+    - tu es hyper cool
+    - tu es superbe
+    - tu es méga cool
+    - tes super méga cool
+    - tu es tellement cool
+    - super cool toi
+    - tu es tellement bien
+    - tes trop cool
+    - tu es trop cool
+    - tu es très cool
+    - tu es cool
+    - tes fantastique
+    - tu es forte
+    - tu es fantastique
+    - tu es pro
+    - tu es fort
+    - tu es parfaite
+    - tu es excellente
+    - tu es excellent
+    - tu es parfait
+    - tu es super bien
+    - tu es super
+    - tu es énorme
+    - tu es bien
+    - tu es trop bien
+    - Bien joué.
+    - bravo
+    - bien joué
+    - chapeau
+    - bien fait
+    - un grand bravo
+    - travail bien fait
+    - cest bien joué
+    - cest bien fait
+    - ceci est bien fait
+    - ceci est bien joué
+    - cela est bien joué
+    - cela est bien fait
+
+- intent: st_thank_you
+  examples: |
+    - Merci.
+    - merci beaucoup
+    - merci
+    - merci bien
+    - je te remercie
+    - grand merci
+    - japprécie ça
+    - japprécie cela
+    - je lapprécie
+    - je suis reconnaissant
+    - je suis reconnaissante
+    - remerciement
+    - gratitude
+    - oui merci
+    - merci à toi
+    - eh bien merci
+    - merci bien à toi
+    - chu reconnaissant
+    - merci bcp toi
+    - je te remercie beaucoup
+    - chus reconnaissante
+    - chus reconnaissant
+    - non merci
+    - merci toi aussi
+    - merci mon ami
+    - merci à toi aussi
+    - super merci
+    - merci bcp vraiment ! 
+    - oh c bien merci wlh
+    - merci merci !
+    - voila merci c'est ca le resultat 
+    - oui merci bcp 
+    - oh c bien voici quesque je veux !
+
+- intent: st_bye
+  examples: |
+    - Au revoir.
+    - il faut que je men aille
+    - je dois y aller
+    - je men vais
+    - bye
+    - au revoir
+    - à bientôt
+    - ciao
+    - a plus tard
+    - à plus
+    - à tout à lheure
+    - à plus tard
+    - à toute
+    - à tt
+    - à +
+    - a tt
+    - a +
+    - à la prochaine
+    - bye bye
+    - à demain
+    - à ce soir
+    - goodbye
+    - porte toi bien
+    - Au revoir.
+    - merci au revoir
+    - Au revoir
+    - by by 
+    - by
+    - merci by
+
+- intent: st_can_you_help 
+  examples: |
+    - Peux-tu aider ?
+    - il faut que tu maides
+    - tu dois maider
+    - aide-moi un peu
+    - aide-moi
+    - peux-tu aider
+    - jai vraiment besoin de ton aide
+    - jai besoin daide
+    - peux-tu maider
+    - est-ce que tu peux maider
+    - pourrais-tu maider
+    - il me faut ton aide
+    - est que pouvez vous m'aider 
+    - j'ai un probleme tu peut m'aider 
+    - je besoin de toi ! 
+    - je veux une aide !
+    - s'il vous je veux ton aide ! 
+    - tu disponible pour m'aider ?!
+
+
+- intent: st_what_do_you_mean 
+  examples: |
+    - Que veux-tu dire ?
+    - cest quoi que tu veux dire
+    - tu veux dire quoi précisément
+    - quest-ce que tu essaie de dire
+    - quest-ce que tu veux dire
+    - tu veux quoi dire
+    - vous voulez dire quoi
+    - tu veux dire quoi par là
+    - précise ce que tu veux dire
+    - tu veux dire quoi au juste
+    - tu veux dire quoi
+    - Que veux-tu dire ?
+    - jai pas compris
+    - Que veux tu dire ?
+    - Quesque tu veut dire exactement ? 
+    - qu'est-ce que tu veux dire?
+    - Quesque tu veut dire
+    
+
+- intent: st_bad
+  examples: |
+    - Tu es mauvais.
+    - tu es nul
+    - tu ne maides même pas
+    - tu ne maides pas
+    - pas tellement cool toi
+    - pas cool toi
+    - tu nes pas trop cool
+    - tu nes pas super
+    - tes pas bien
+    - tu nes pas bien
+    - tu es une mauvaise personne
+    - tu es horrible
+    - tes nul
+    - tu es nulle
+    - tu sers à rien
+    - tu ne peux rien faire
+    - tu es mauvais
+    - tes mauvais
+    - tu ne sers à rien
+    - ce nest pas bien
+    - cest très mauvais
+    - cest horrible
+    - cest mauvais
+    - mal
+    - mauvais
+    - mauvaise
+    - abominable
+    - atroce
+    - dégoûtant
+    - dégoûtante
+    - dégueulas
+    - dégueulasse
+    - épouvantable
+    - déplorable
+    - ignoble
+    - minable
+    - répugnante
+    - répugnant
+    - mediocre
+    - détestable
+    - affreux
+    - horrible
+    - déplaisant
+    - nul
+    - raté
+    - désagréable
+    - moche
+    - foutu
+    - fichu
+    - pitoyable
+    - pas bon
+    - pas bonne
+    - pas bons
+    - pas bonnes
+    - pas bien
+    - pas cools
+    - pas cool
+    - terrible
+    - terribles
+    - atroces
+    - abominables
+    - dégoûtantes
+    - dégoûtants
+    - dégueulasses
+    - déplorables
+    - épouvantables
+    - minables
+    - ignobles
+    - répugnants
+    - répugnantes
+    - mediocres
+    - détestables
+    - affreuses
+    - affreuse
+    - horribles
+    - déplaisants
+    - déplaisantes
+    - nulles
+    - nulle
+    - nuls
+    - ratés
+    - ratées
+    - ratée
+    - désagréables
+    - moches
+    - fichus
+    - fichues
+    - fichue
+    - foutus
+    - foutues
+    - foutue
+    - pitoyables
+    - cest mal
+    - cest pas bien
+    - cest nul
+    - cest très mal
+    - cest trop nul
+    - trop nul
+    - cest très nul
+    - cest trop mal
+    - nuuul
+    - nuul
+    - cest trop trop nul
+    - cela est mal
+    - ceci est mal
+    - cela est trop mal
+    - ceci est mauvais
+    - ceci est trop mal
+    - cela est trop mauvais
+    - cela est mauvais
+    - ceci est trop mauvais
+
+- intent: st_whatsup 
+  examples: |
+      - Quoi de beau ?
+      - quoi de beau
+      - quoi de neuf
+      - quoi de nouveau
+      - quest-ce quil y a de neuf
+      - quest-ce quil y a de nouveau
+      - quest-ce quil y a de beau
+      - quoi de neuf toi
+      - salut quoi de neuf toi
+      - est que existe des nouveau choses ? µ
+      - il y'a des nouveau choses ? 
+
+
+- intent: Creation_offre
+  examples: |
+    - Comment créer une offre ?
+    - Comment créer une offre?
+    - Comment créer une offre
+    - Besoin d'aide pour créer une offre
+    - Quelles sont les étapes pour créer une offre
+    - Je veux publier une nouvelle offre
+    - Guide pour la création d'une offre
+    - J'aimerais savoir comment ajouter une offre
+    - Est-ce que vous pouvez m'aider à ajouter une offre à mon compte ?
+    - Où puis-je commencer pour créer une offre ?
+    - Y a-t-il un formulaire pour créer une offre ?
+    - Je suis prêt à créer une offre. Par où dois-je commencer ?
+    - Je cherche des instructions sur la façon de créer une nouvelle offre
+
+- intent: Lister_v1_company
+  examples: |
+    - Comment lister mes offres ?
+    - Comment lister mes offres?
+    - Comment lister mes offres
+    - Comment afficher mes offres ?
+    - Comment afficher mes offres
+    - Où puis-je trouver mes offres répertoriées ?
+    - Afficher mes offres existantes
+    - Voir la liste de mes offres
+    - Je veux voir toutes mes offres
+    - Comment puis-je accéder à la liste de mes offres ?
+    - J'aimerais consulter la liste de mes offres actuelles
+    - Quelles sont les étapes pour voir mes offres ?
+    - Montrez-moi mes offres
+    - Est-ce que je peux obtenir une liste de mes offres ?
+    - Existe-t-il une option pour visualiser mes offres ?
+    - Y a-t-il un moyen de voir toutes les offres que j'ai créées ?
+
+
+- intent: Archive_v1_company
+  examples: |
+    - Comment lister mes archive ?
+    - Comment voir mes archives des offres?
+    - Comment lister les archives d'offres
+    - Comment regarder les archives d'offres ?
+    - Comment afficher les archives d'offres
+    - Comment voir l'historique d'offres
+    - comment examiner les offres archives
+    - je veux consulter mes offres archives
+    - Je veux voir toutes mes offres archives
+    - les archives d'offres ou existes ? 
+    - ou je trouve l'historique d'offres ?!
+    - Quelle sont les etapes pour voir l'historique ou les archives d'offres 
+    - Montrez-moi mes historique d'offres
+  

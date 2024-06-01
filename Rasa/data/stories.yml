@@ -1,0 +1,84 @@
+version: "3.1"
+
+stories:
+
+- story: asking about activity
+  steps:
+  - intent: ask_activity
+  - action: utter_activity_response
+
+- story: asking about phrase de presentation
+  steps:
+  - intent: phrase_presentation
+  - action: utter_activity_presentation
+
+- story: asking about creation of offre
+  steps:
+  - intent: Creation_offre
+  - action: utter_activity_Offre_Creation
+
+- story: asking about Lister en tanque company
+  steps:
+  - intent: Lister_v1_company
+  - action: utter_activity_Lister_V1
+
+- story: Demande d'information sur l'âge
+  steps:
+  - intent: st_age
+  - action: utter_provide_age
+
+- story: Demande de compliment sur l'apparence
+  steps:
+  - intent: st_beautiful_good
+  - action: utter_compliment
+
+- story: Remerciement
+  steps:
+  - intent: st_thank_you
+  - action: utter_youre_welcome
+
+- story: Départ
+  steps:
+  - intent: st_bye
+  - action: utter_goodbye
+
+- story: Demande d'aide
+  steps:
+  - intent: st_can_you_help
+  - action: utter_check_availability
+
+- story: Demande de clarification
+  steps:
+  - intent: st_what_do_you_mean
+  - action: utter_explain_meaning
+
+- story: Retour négatif
+  steps:
+  - intent: st_bad
+  - action: utter_apology
+
+- story: Demande de nouvelles
+  steps:
+  - intent: st_whatsup
+  - action: utter_share_news
+
+- story: Archive d'offres 
+  steps:
+  - intent: Archive_v1_company
+  - action: utter_Archive_v1_company
+
+- story: salut pour chatbot  
+  steps:
+  - intent: st_bonj
+  - action: utter_bonj
+
+- story: question pour cv ou non a chatbot
+  steps:
+  - intent: st_Sava
+  - action: utter_Sava
+
+- story: question a chatbot quesque fait 
+  steps:
+  - intent: st_Doing
+  - action: utter_DoingNow
+

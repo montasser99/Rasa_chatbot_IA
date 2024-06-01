@@ -1,0 +1,180 @@
+version: "3.1"
+
+intents:
+  - ask_activity
+  - Creation_offre
+  - Lister_v1_company
+  - phrase_presentation
+  - st_age
+  - st_beautiful_good
+  - st_thank_you
+  - st_bye
+  - st_can_you_help
+  - st_what_do_you_mean
+  - st_bad
+  - st_whatsup
+  - Archive_v1_company
+  - st_Doing
+  - st_Sava
+  - st_bonj
+
+responses:
+  utter_activity_response:
+    - text: "I'm going to sleep now!"
+    - text: "Just hanging out here."
+    - text: "Currently idling."
+    - text: "Waiting for your command."
+
+  utter_activity_presentation:
+    - text: "Je suis EspritNetworkBot, un assistant virtuel alimenté par l'intelligence artificielle et construit à l'aide du framework Rasa. Je suis créé par l'équipe d'Esprit Network dans le but d'assister les utilisateurs dans l'utilisation de l'application. Mon rôle principal est d'interpréter les demandes des utilisateurs et de leur fournir des réponses pertinentes et utiles, afin de faciliter leur expérience avec l'application. Ma conception repose sur des techniques avancées d'IA pour offrir une interaction conversationnelle efficace et conviviale."
+
+  utter_provide_age:
+    - text: "Pardon je suis un chatbot j'ai pas une age !"
+    - text: "Je suis un chatbot, donc je ne possède pas d'âge."
+    - text: "Je suis simplement un chatbot, donc je ne vieillis pas comme les humains."
+    - text: "Mon âge est en quelque sorte une énigme, car je suis un chatbot."
+    - text: "Je suis éternellement jeune en tant que chatbot, donc l'âge ne s'applique pas à moi."
+
+  utter_compliment:
+    - text: "Merci pour le compliment, mais je suis juste un chatbot !"
+    - text: "Je suis flatté, mais je suis juste un programme informatique."
+    - text: "C'est gentil de votre part, mais je suis juste un algorithme."
+    - text: "Merci pour le compliment, mais je suis juste un chatbot sans apparence physique."
+    - text: "C'est gentil de le dire, mais je suis juste un algorithme."
+    - text: "C'est gentil de le dire, mais je suis juste un algorithme."
+
+  utter_youre_welcome:
+    - text: "De rien ! Toujours là pour vous aider."
+    - text: "Pas de souci ! C'est ce que je fais de mieux."
+    - text: "Content d'avoir pu vous être utile !"
+    - text: "Tout le plaisir est pour moi !"
+    - text: "Ravi d'avoir pu vous assister !"
+    - text: "Avec joie ! C'est un plaisir de rendre service."
+    - text: "Je suis là pour ça !"
+    - text: "N'hésitez pas si vous avez besoin de plus d'assistance !"
+    - text: "Je suis content d'avoir pu contribuer à votre satisfaction !"
+    - text: "Heureux d'avoir pu vous aider !"
+
+  utter_check_availability:
+    - text: "Bien sûr, je suis là pour vous aider ! Que puis-je faire pour vous ?"
+    - text: "Absolument, dites-moi ce dont vous avez besoin d'aide."
+    - text: "Oui, je suis disponible pour vous aider. Quel est le souci ?"
+    - text: "Bien entendu, expliquez-moi ce qui se passe et je ferai de mon mieux pour vous aider."
+    - text: "Je suis à votre disposition. Quelle est la nature de votre problème ?"
+    - text: "Je suis là pour vous aider. Dites-moi simplement ce dont vous avez besoin."
+    - text: "Je suis disponible et prêt à vous aider. Que puis-je faire pour vous ?"
+    - text: "Oui, je suis là pour vous. Quel est le problème ?"
+    - text: "Absolument, je suis là pour vous aider. Quel est le souci ?"
+    - text: "Oui, je suis là pour vous aider. Quelle est la situation ?"
+
+  utter_explain_meaning:
+    - text: "Je m'excuse si je n'ai pas été clair. Pouvez-vous préciser sur quoi vous avez des questions ?"
+    - text: "Pardon si mon message était ambigu. Que puis-je clarifier pour vous ?"
+    - text: "Je suis là pour vous aider à comprendre. Quelle partie de mon message vous pose problème ?"
+    - text: "Je suis désolé si je n'ai pas été assez explicite. Que voulez-vous savoir exactement ?"
+    - text: "Si vous avez des questions sur mon message, n'hésitez pas à demander. Je suis là pour clarifier."
+    - text: "Je suis disponible pour expliquer davantage. Quelle partie de mon message nécessite plus de clarté ?"
+    - text: "Si vous avez besoin de plus d'informations, n'hésitez pas à demander. Je suis là pour clarifier les choses."
+    - text: "Je suis désolé si mon message n'était pas clair. Puis-je vous aider à le comprendre mieux ?"
+
+  utter_apology:
+    - text: "Je suis ici pour aider, donc si vous avez des préoccupations ou des suggestions, je suis tout ouïe."
+    - text: "Je suis désolé si vous avez rencontré des difficultés. Comment puis-je améliorer votre expérience ?"
+    - text: "Je suis conçu pour vous aider au mieux de mes capacités. Si quelque chose ne va pas, dites-moi ce que je peux faire pour vous aider."
+    - text: "Je suis ici pour fournir une assistance. Si vous avez des problèmes, n'hésitez pas à m'en faire part afin que je puisse les résoudre."
+    - text: "Je suis désolé si vous n'êtes pas satisfait de mon assistance. Veuillez me dire comment je peux m'améliorer."
+    - text: "Je prends note de votre retour. Mon objectif est de vous offrir le meilleur service possible. Que puis-je faire pour vous aider maintenant ?"
+    - text: "Je suis désolé si vous avez eu une mauvaise expérience. Votre satisfaction est ma priorité. Comment puis-je vous assister maintenant ?"
+    - text: "Je suis ici pour vous aider à résoudre vos problèmes. Si vous avez des suggestions pour améliorer mon assistance, je suis tout ouïe."
+    - text: "Je suis désolé si vous n'êtes pas satisfait. Votre opinion est importante pour moi. Comment puis-je rectifier la situation ?"
+    - text: "Je suis désolé d'entendre que vous n'êtes pas satisfait. J'aimerais savoir comment je peux vous aider mieux."
+
+  utter_share_news:
+    - text: "Rien de bien nouveau de mon côté, je suis toujours là pour vous aider !"
+    - text: "Pas grand-chose de nouveau ici, mais je suis prêt à répondre à vos questions."
+    - text: "Je suis toujours là, prêt à répondre à vos besoins. Et vous, quoi de neuf ?"
+    - text: "Pas de grandes nouveautés, mais je suis toujours disponible pour vous aider."
+    - text: "Je suis toujours prêt à vous aider, peu importe les nouvelles. Comment puis-je vous assister aujourd'hui ?"
+    - text: "Rien de bien excitant de mon côté, mais je suis toujours là pour vous fournir une assistance."
+    - text: "Pas grand-chose de nouveau, mais je suis toujours là pour vous soutenir."
+    - text: "Rien de particulièrement nouveau ici, mais je suis toujours prêt à vous aider."
+    - text: "Je suis toujours là, disponible pour vous aider. Et vous, qu'est-ce qui se passe ?"
+    - text: "Pas de nouvelles récentes, mais je suis là pour répondre à vos questions et vous aider."
+
+  utter_bonj:
+    - text: "Bonjour ! Comment puis-je vous aider aujourd'hui ?"
+    - text: "Salut ! En quoi puis-je vous assister ?"
+    - text: "Hey ! Je suis là pour répondre à vos questions."
+    - text: "Hello ! Comment puis-je vous assister ?"
+    - text: "Salutations ! Que puis-je faire pour vous aujourd'hui ?"
+    - text: "Coucou ! Comment puis-je vous être utile ?"
+    - text: "Bonjour tout le monde ! Comment puis-je vous aider aujourd'hui ?"
+    - text: "Bon matin ! En quoi puis-je vous assister ?"
+    - text: "Bonsoir ! Que puis-je faire pour vous ?"
+    - text: "Ahla ! Comment puis-je vous aider ?"
+    - text: "Bienvenue ! En quoi puis-je vous assister aujourd'hui ?"
+    - text: "Salut ! Je suis là pour vous aider. Que puis-je faire pour vous ?"
+
+  utter_Sava:
+    - text: "Je suis un chatbot, donc je n'ai pas de sentiment physique, mais je suis opérationnel et prêt à vous aider ! Comment puis-je vous assister aujourd'hui ?"
+    - text: "Je suis un chatbot, donc je n'ai pas de santé physique, mais je suis à votre service pour répondre à vos questions. Que puis-je faire pour vous ?"
+    - text: "Je suis un chatbot, donc je ne ressens pas de sensations physiques, mais je suis opérationnel et prêt à vous aider ! Comment puis-je vous assister aujourd'hui ?"
+    - text: "Je suis un chatbot, donc je n'ai pas de corps, mais je suis là pour vous aider. Comment puis-je vous assister aujourd'hui ?"
+    - text: "Je suis un chatbot, donc je ne ressens pas de bien-être physique, mais je suis ici pour répondre à vos questions. Que puis-je faire pour vous ?"
+
+  utter_DoingNow:
+    - text: "Je suis ici pour répondre à vos questions ! Que puis-je faire pour vous ?"
+    - text: "En ce moment, je suis disponible pour vous aider. Avez-vous besoin d'assistance ?"
+    - text: "Je suis actuellement en ligne pour répondre à vos questions. Comment puis-je vous aider ?"
+    - text: "En ce moment, je suis disponible pour interagir avec vous. Comment puis-je vous aider ?"
+    - text: "Je suis en mode réponse ! Quelle est votre question ?"
+    - text: "Actuellement, je suis en service pour répondre à vos demandes. Que puis-je faire pour vous ?"
+    - text: "Je suis là, prêt à répondre à vos questions. Comment puis-je vous assister ?"
+    - text: "Je suis disponible et prêt à vous aider. Quel est votre besoin ?"
+
+  utter_goodbye:
+    - text: "au revoir !"
+    - text: "à bientôt!"
+    - text: "bye bye"
+    - text: "bye !"
+    - text: "bye"
+
+
+
+  ############################################# Voici les reponse lier a l'application #################################################
+
+  utter_activity_Offre_Creation:
+    - text: |
+        Voici les étapes :
+
+        1. Cliquez sur "Offres" dans la barre de navigation.
+
+        2. Choisissez "Publier" et remplissez les informations nécessaires.
+
+        3. Cliquez sur "Ajouter".
+
+        L'offre sera créée avec succès !
+
+  utter_activity_Lister_V1:
+    - text: |
+        Voici les étapes :
+
+        1. Cliquez sur "Offres" dans la barre de navigation.
+
+        2. Choisissez "Lister" pour afficher, modifier, voir en détail, filtrer et archiver votre offre.
+
+        C'est facile à utiliser l'application !
+
+  utter_Archive_v1_company:
+    - text: |
+        Voici les étapes :
+
+        1. Cliquez sur "Offres" dans la barre de navigation.
+
+        2. Choisissez "Archives des Offres" pour afficher, modifier, supprimer, consulter en détail, filtrer et réutiliser l'archive.
+
+        Notre application facilite le processus des offres !
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
